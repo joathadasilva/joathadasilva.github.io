@@ -1,0 +1,28 @@
+body{ 
+    color: orange;
+    background-color: black ;
+    text-align: center;
+    
+}
+h1{
+    background-color: black;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.center{
+    margin-left: calc(100vh-200vh);
+}
+
+h2{
+    color: orange;
+    background-color: black;
+}
+h3{
+    color: orange;
+
+}
+p{
+    color: orange;
+}
