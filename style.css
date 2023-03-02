@@ -1,28 +1,68 @@
-body{ 
-    color: orange;
-    background-color: black ;
+.meuNome{
     text-align: center;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h1{
-    background-color: black;
-    color: orange;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+.descricao{
+    right: 8%;
+    top: 40%;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.center{
-    margin-left: calc(100vh-200vh);
+body{ 
+    padding: 3%;
+    color: orange;
+    background-color: black ;
+    
+}
+.resido {
+    font-weight: 900;
+}
+
+.habilidade1{
+    font-size: 30px;
+}
+.habilidade2{
+    font-size: 35px;
+}
+.habilidade3{
+    font-size: 40px;
+
+}
+.habilidade4{
+    font-size: 45px;
+}
+.habilidade5{
+    font-size:50px;
+}
+h1{
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2{
     color: orange;
-    background-color: black;
+   
 }
-h3{
-    color: orange;
 
-}
 p{
     color: orange;
+}
+
+#minha-foto{
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: orange;
+}
+
+.image-conteiner{
+    height: 300px;
+    position: relative;
+}
+
+ul li:nth-child(odd){
+    color: black;
+    background-color: orange;
+
 }
